@@ -21,7 +21,7 @@ src/
 ```
 
 # 3. Configurar Serviço de Autenticação
-```
+```javascript
 // src/services/authService.js
 
 const login = async (email, password) => {
@@ -41,7 +41,7 @@ export { login, resetPassword };
 ```
 
 # 4. Componente de Login
-```
+```javascript
 // src/components/Login.js
 
 import React, { useState } from 'react';
@@ -116,7 +116,7 @@ export default Login;
 ```
 
 # 5. Componente de Recuperação de Senha
-```
+```javascript
 // src/components/PasswordReset.js
 import React, { useState } from 'react';
 import { 
@@ -179,7 +179,7 @@ export default PasswordReset;
 ```
 
 # 6. Configurar Rotas no App
-```
+```javascript
 // src/App.js
 
 import React from 'react';
@@ -202,7 +202,7 @@ export default App;
 ```
 
 # 7. Executar o Projeto
-```
+```javascript
 npm start
 ```
 
